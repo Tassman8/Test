@@ -1,0 +1,17 @@
+def print_developer_type(language):
+    if language == "JavaScript":
+        print("Tu es un dev web")
+    elif language == "Python":
+        print("Tu es un dev IA")
+    elif language == "Java":
+        print("Tu es un dev logiciel")
+    elif language == "React Native":
+        print("Tu es un dev mobile")
+    else:
+        print("un jour, je serai le meilleur développeur...")
+
+print_developer_type("JavaScript")
+print_developer_type("Python")
+print_developer_type("Java")
+print_developer_type("React Native")
+print_developer_type("Autres")

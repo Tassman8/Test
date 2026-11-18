@@ -1,0 +1,5 @@
+num = 0
+while num < 100:
+    if num not in (26, 37, 88):
+        print(num)
+    num += 1

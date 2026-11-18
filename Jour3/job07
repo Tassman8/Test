@@ -1,0 +1,6 @@
+chaine = "abcdefghijklmnopqrstuvwxyz" * 10
+
+taille = 1
+while taille <= 26:
+    print(chaine[0:taille])
+    taille += 1

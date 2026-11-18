@@ -1,0 +1,7 @@
+num = 1
+while num <= 30:
+    if num % 2 == 0:
+        print(num, "est pair")
+    else:
+        print(num, "est impair")
+    num += 1

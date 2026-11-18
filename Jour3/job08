@@ -1,0 +1,25 @@
+a = float(input("Longueur a : "))
+b = float(input("Longueur b : "))
+c = float(input("Longueur c : "))
+
+if a <= 0 or b <= 0 or c <= 0:
+    print("Les longueurs doivent être positives.")
+elif a < b + c and b < a + c and c < a + b:
+    print("Le triangle est constructible.")
+
+    equilateral = a == b == c
+    isocele = a == b or b == c or a == c
+    rectangle = (a**2 + b**2 == c**2) or (a**2 + c**2 == b**2) or (b**2 + c**2 == a**2)
+
+    if equilateral:
+        print("Il est équilatéral.")
+    elif isocele:
+        print("Il est isocèle.")
+
+    if rectangle:
+        print("Il est rectangle.")
+
+    if not (equilateral or isocele or rectangle):
+        print("Il est quelconque.")
+else:
+    print("Impossible de construire un triangle.")

@@ -1,0 +1,6 @@
+num = int(input("Entrez un nombre entier : "))
+
+if num % 2 == 0:
+    print("Le nombre", num, "est pair")
+else:
+    print("Le nombre", num, "est impair")

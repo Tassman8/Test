@@ -1,0 +1,10 @@
+def time(minutes):
+    heures = minutes // 60
+    reste = minutes % 60
+    print(f"{heures} heures et {reste} minutes")
+
+time(45)
+time(120)
+time(135)
+time(0)
+time(500)

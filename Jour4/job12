@@ -1,0 +1,7 @@
+def reverse_string(texte):
+    return texte[::-1]
+
+print(reverse_string("nikana"))
+print(reverse_string("kayak"))
+print(reverse_string("mikaN"))
+print(reverse_string(""))

@@ -1,0 +1,11 @@
+num = 2
+while num <= 1000:
+    dv = 0
+    d = 1
+    while d <= num:
+        if num % d == 0:
+            dv += 1
+        d += 1
+    if dv == 2:
+        print(num)
+    num += 1
